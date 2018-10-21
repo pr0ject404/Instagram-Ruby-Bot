@@ -24,6 +24,12 @@ I've made some fairly simple updates since the videos.
 - added more variables for counting, tracking, and info output
 - added top 100 users on instagram at the bottom of `auto_follow.rb`
 
+### Updates (by pr0ject404)
+- added more `sleep` to fix slow connection bugs
+- all `class` updated
+- support for the new unfollow confirmation
+- updated users list
+
 ### Libraries Used
 [watir](https://github.com/watir/watir) for crawling in live browser<br>
 [pry](https://github.com/pry/pry) ruby REPL<br>
