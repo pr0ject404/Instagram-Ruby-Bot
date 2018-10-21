@@ -35,3 +35,5 @@ I've made some fairly simple updates since the videos.
 [pry](https://github.com/pry/pry) ruby REPL<br>
 [rb-readline](https://github.com/ConnorAtherton/rb-readline) ruby IRB and dependency of pry<br>
 [awesome-print](https://github.com/awesome-print/awesome_print) for clearer console output
+
+NOTE: for windows is recommend use Ruby version 4.4
