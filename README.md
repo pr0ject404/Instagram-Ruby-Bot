@@ -26,7 +26,7 @@ I've made some fairly simple updates since the videos.
 
 ### Updates (by pr0ject404)
 - added more `sleep` to fix slow connection bugs
-- all `class` updated
+- updated all `class`
 - support for the new unfollow confirmation
 - updated users list
 
