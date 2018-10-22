@@ -31,9 +31,9 @@ I've made some fairly simple updates since the videos.
 - updated users list
 
 ### Libraries Used
-[watir](https://github.com/watir/watir) for crawling in live browser<br>
-[pry](https://github.com/pry/pry) ruby REPL<br>
-[rb-readline](https://github.com/ConnorAtherton/rb-readline) ruby IRB and dependency of pry<br>
-[awesome-print](https://github.com/awesome-print/awesome_print) for clearer console output
+[watir](https://github.com/watir/watir) for crawling in live browser<br> `gem instal watir` and  `gem instal wati`
+[pry](https://github.com/pry/pry) ruby REPL<br> `gem install pry`
+[rb-readline](https://github.com/ConnorAtherton/rb-readline) ruby IRB and dependency of pry<br> `gem install rb-readline`
+[awesome-print](https://github.com/awesome-print/awesome_print) for clearer console output<br> `gem install awesome_print`
 
 NOTE: for windows is recommend use Ruby version 4.4
