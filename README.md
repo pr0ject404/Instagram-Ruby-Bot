@@ -38,4 +38,4 @@ I've made some fairly simple updates since the videos.
 
 ### Notes
 - for windows is recommend use `Ruby version 4.4`
-- download the chromedriver if necessary `http://chromedriver.chromium.org/downloads`
+- download the [chromedriver](http://chromedriver.chromium.org/downloads) if necessary 
