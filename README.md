@@ -25,7 +25,6 @@ I've made some fairly simple updates since the videos.
 - added top 100 users on instagram at the bottom of `auto_follow.rb`
 
 ### Updates (by pr0ject404)
-- added more `sleep` to fix slow connection bugs
 - updated all `class`
 - support for the new unfollow confirmation
 - updated users list
