@@ -36,5 +36,5 @@ I've made some fairly simple updates since the videos.
 [awesome-print](https://github.com/awesome-print/awesome_print) for clearer console output `gem install awesome_print`<br>
 
 ### Notes
-- for windows is recommend `Ruby version 4.4`
+- for windows is recommend `Ruby version 2.4.4-2` [[download]](https://rubyinstaller.org/downloads/archives/)
 - download the [chromedriver](http://chromedriver.chromium.org/downloads) if necessary 
