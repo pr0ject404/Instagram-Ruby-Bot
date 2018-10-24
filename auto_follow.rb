@@ -7,10 +7,10 @@ require_relative 'credentials' # Pulls in login credentials from credentials.rb
 
 username = $username
 password = $password
-users = ['whinderssonnunes', 'maisa', 'luisasonza', 'larissamanoela', 'bela_fernandesoficial', 'kevinho', 'bel_moreira', 'biancaandradeoficial', 'flaviapavanelli', 'instagram', 'selenagomez', 'arianagrande', 'taylorswift', 'beyonce', 'kimkardashian', 'cristiano', 'kyliejenner', 'justinbieber', 'kendalljenner', 'nickiminaj', 'natgeo', 'neymarjr', 'nike', 'leomessi', 'khloekardashian', 'katyperry', 'jlo', 'ddlovato', 'kourtneykardash', 'badgalriri', 'fcbarcelona', 'realmadrid', 'theellenshow', 'justintimberlake', 'zendaya', '9gag', 'chrisbrownofficial', 'vindiesel', 'champagnepapi', 'davidbeckham', 'shakira', 'gigihadid', 'emmawatson', 'kingjames', 'garethbale11', 'nikefootball', 'adele', 'zacefron', 'vanessahudgens', 'ladygaga', 'maluma', 'nba', 'nasa', 'luissuarez9', 'zayn', 'shawnmendes', 'adidasfootball', 'brumarquezine', 'hm', 'harrystyles', 'chanelofficial', 'ayutingting92', 'letthelordbewithyou', 'niallhoran', 'anitta', 'hudabeauty', 'adidasoriginals', 'marinaruybarbosa', 'lucyhale', 'karimbenzema', 'princessyahrini', 'zara', 'nickyjampr', 'onedirection', 'andresiniesta8', 'raffinagita1717', 'krisjenner', 'manchesterunited', 'natgeotravel', 'deepikapadukone', 'snoopdogg', 'davidluiz_4', '3030oficial', 'priyankachopra', 'ashleybenson', 'lelepons', 'prillylatuconsina96', 'louisvuitton', 'britneyspears', 'jbalvin', 'laudyacynthiabella', 'ciara', 'stephencurry30', 'instagrambrasil']
+users = ['whinderssonnunes', 'maisa', 'luisasonza', 'kevinho', 'bel_moreira', 'biancaandradeoficial', 'flaviapavanelli', 'instagram', 'selenagomez', 'arianagrande', 'taylorswift', 'beyonce', 'kimkardashian', 'kyliejenner', 'justinbieber', 'kendalljenner', 'nickiminaj', 'natgeo', 'neymarjr', 'nike', 'leomessi', 'khloekardashian', 'katyperry', 'jlo', 'ddlovato', 'kourtneykardash', 'badgalriri', 'theellenshow', 'justintimberlake', 'zendaya', '9gag', 'chrisbrownofficial', 'vindiesel', 'champagnepapi', 'davidbeckham', 'shakira', 'gigihadid', 'emmawatson', 'kingjames', 'nikefootball', 'adele', 'zacefron', 'vanessahudgens', 'ladygaga', 'maluma', 'nba', 'nasa', 'luissuarez9', 'zayn', 'shawnmendes', 'adidasfootball', 'brumarquezine', 'hm', 'harrystyles', 'chanelofficial', 'letthelordbewithyou', 'niallhoran', 'anitta', 'adidasoriginals', 'marinaruybarbosa', 'lucyhale', 'karimbenzema', 'princessyahrini', 'zara', 'onedirection', 'krisjenner', 'natgeotravel', 'deepikapadukone', 'snoopdogg', '3030oficial', 'priyankachopra', 'ashleybenson', 'lelepons', 'louisvuitton', 'britneyspears', 'laudyacynthiabella', 'ciara', 'stephencurry30', 'instagrambrasil']
 follow_counter = 0
 unfollow_counter = 0
-MAX_UNFOLLOWS = 5000
+MAX_UNFOLLOWS = 10000
 start_time = Time.now
 
 # Open Browser, Navigate to Login page
@@ -56,5 +56,4 @@ ap "Followed #{follow_counter} users and unfollowed #{unfollow_counter} in #{((T
 # Leave this in to use the REPL at end of program
 # Otherwise, take it out and program will just end
 Pry.start(binding)
-
 
