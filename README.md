@@ -40,4 +40,4 @@ I've made some fairly simple updates since the videos.
 - download the [chromedriver](http://chromedriver.chromium.org/downloads) if necessary 
 
 
-Credits: [dv1pr/Web-Scraping-Tutorial](https://github.com/dv1pr/Web-Scraping-Tutorial)
+Credits: [dv1pr / Web-Scraping-Tutorial](https://github.com/dv1pr/Web-Scraping-Tutorial)
