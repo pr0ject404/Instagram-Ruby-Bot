@@ -34,7 +34,7 @@ loop do
     browser.driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
     sleep(1)
   end
-
+ 
   # Call all unliked like buttons on page and click each one.
   if browser.span(:class => 'glyphsSpriteHeart__outline__24__grey_9 u-__7').exists?
     browser.spans(:class => 'glyphsSpriteHeart__outline__24__grey_9 u-__7').each { |val|
