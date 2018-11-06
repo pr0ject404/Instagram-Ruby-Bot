@@ -41,6 +41,6 @@ I've made some fairly simple updates since the videos.
 - MSYS2 development toolchain it's not necessary
 - for windows is recommend `Ruby version 2.4.4-2` [[download]](https://rubyinstaller.org/downloads/archives/)
 - download the [chromedriver](http://chromedriver.chromium.org/downloads) if necessary 
-
+ 
 
 Credits: [dv1pr / Web-Scraping-Tutorial](https://github.com/dv1pr/Web-Scraping-Tutorial)
