@@ -9,8 +9,8 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/></a>
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=f8WQZNbHHX8" target="\_blank"><img src="http://img.youtube.com/vi/f8WQZNbHHX8/0.jpg"
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10"/></a>
 
-### Credentials
-Make sure to update your login info in the credentials.rb file.
+### Config
+Make sure to update your login info and followers in the config.rb file.
 
 ### How to Run from Command Line
 To run each file navigate to the main directory (web_scraper) in your terminal and run the word `ruby` followed by the name of the file. Example:
@@ -20,7 +20,7 @@ or
 
 ### Updates (since videos were made)
 I've made some fairly simple updates since the videos.
-- changed the ```while true``` loops to `loop do` loops with a break condition using a constant variable set at top
+- changed the `while true` loops to `loop do` loops with a break condition using a constant variable set at top
 - added more variables for counting, tracking, and info output
 - added top 100 users on instagram at the bottom of `auto_follow.rb`
 
@@ -28,6 +28,8 @@ I've made some fairly simple updates since the videos.
 - updated all `class`
 - support for the new unfollow confirmation
 - updated users list
+- created `Automatization.bat` ( only for windows users )
+- updated `credentials.rb` to `config.rb` edit all config in this file
 
 ### Libraries Used
 [watir](https://github.com/watir/watir) for crawling in live browser `gem instal watir`<br>
