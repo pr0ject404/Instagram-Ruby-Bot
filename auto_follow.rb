@@ -35,7 +35,7 @@ loop do
 
     # If not following then follow
     if browser.button(:class => '_5f5mN       jIbKX  _6VtSN     yZn4P   ').exists?
-      ap "Following [ #{val} ]"
+      ap "Following [ #{val} ]" 
       browser.button(:class => '_5f5mN       jIbKX  _6VtSN     yZn4P   ').click
       follow_counter += 1
     elsif browser.button(:class => '_5f5mN    -fzfL     _6VtSN     yZn4P   ').exists?
