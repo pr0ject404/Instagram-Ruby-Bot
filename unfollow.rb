@@ -23,7 +23,7 @@ browser.text_field(:name => "password").set "#{password}"
 browser.button(:class => 'oF4XW sqdOP  L3NKy      ').click
 sleep(2)
 puts "We're in #hackerman"
-
+ 
 # Continuous loop to run until you've unfollowed the max people for the day
 loop do
   users.each { |val|
