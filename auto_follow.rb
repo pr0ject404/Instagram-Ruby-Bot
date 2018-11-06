@@ -2,12 +2,12 @@ require 'watir' # Crawler
 require 'pry' # Ruby REPL
 require 'rb-readline' # Ruby IRB
 require 'awesome_print' # Console output
-require_relative 'credentials' # Pulls in login credentials from credentials.rb
+require_relative 'config' # Pulls all config in config.rb
 
 
 username = $username
 password = $password
-users = ['whinderssonnunes', 'maisa', 'luisasonza', 'kevinho', 'bel_moreira', 'biancaandradeoficial', 'flaviapavanelli', 'instagram', 'selenagomez', 'arianagrande', 'taylorswift', 'beyonce', 'kimkardashian', 'kyliejenner', 'justinbieber', 'kendalljenner', 'nickiminaj', 'natgeo', 'neymarjr', 'nike', 'leomessi', 'khloekardashian', 'katyperry', 'jlo', 'ddlovato', 'kourtneykardash', 'badgalriri', 'theellenshow', 'justintimberlake', 'zendaya', '9gag', 'chrisbrownofficial', 'vindiesel', 'champagnepapi', 'davidbeckham', 'shakira', 'gigihadid', 'emmawatson', 'kingjames', 'nikefootball', 'adele', 'zacefron', 'vanessahudgens', 'ladygaga', 'maluma', 'nba', 'nasa', 'luissuarez9', 'zayn', 'shawnmendes', 'adidasfootball', 'brumarquezine', 'hm', 'harrystyles', 'chanelofficial', 'letthelordbewithyou', 'niallhoran', 'anitta', 'adidasoriginals', 'marinaruybarbosa', 'lucyhale', 'karimbenzema', 'princessyahrini', 'zara', 'onedirection', 'krisjenner', 'natgeotravel', 'deepikapadukone', 'snoopdogg', '3030oficial', 'priyankachopra', 'ashleybenson', 'lelepons', 'louisvuitton', 'britneyspears', 'laudyacynthiabella', 'ciara', 'stephencurry30', 'instagrambrasil']
+users = $users
 follow_counter = 0
 unfollow_counter = 0
 MAX_UNFOLLOWS = 10000
@@ -23,7 +23,7 @@ browser.text_field(:name => "username").set "#{username}"
 browser.text_field(:name => "password").set "#{password}"
 
 # Click Login Button
-browser.button(:class => 'oF4XW sqdOP  L3NKy      ').click
+browser.button(:class => '_0mzm- sqdOP  L3NKy       ').click
 sleep(2)
 puts "We're in #hackerman"
 
